@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(1, 1, 34);
+}
+.appCover{
+    width:90%;
+    height:70px auto;
+    max-width: 720px;
+    background:linear-gradient(135deg, #00feba, #5b548a);
+    margin: 60px auto 60px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 0 0 1rem white;
+    user-select: none;
+}
+.inputCover{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+}
+.input{
+    height:50px;
+    width:80%;
+    border-radius: 22px;
+    border: none;
+    padding-left:10px;
+    box-shadow: 1px 1px 10px black;
+}
+.inputCover{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.Button{
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px black;
+    margin-left: 10px;
+}
+.Button:hover{
+    outline:2px solid black;
+}
+.Button:active{
+    transform: scale(0.96);
+}
+.tempCity{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.tempCity h1,h2{
+    color:white;
+}
+.humidWind{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.humidWind h3,h4{
+    color:white;
+}
+.WeatherReport{
+    display:none;
+}
+
+@media(max-width:480px){
+    .humidWind{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .humid{
+        margin-bottom:40px;
+    }
+}
