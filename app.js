@@ -1,3 +1,5 @@
+import API_KEY from './apikey.js';
+
 let input = document.querySelector('.input')
 let button = document.querySelector('.Button')
 let image = document.querySelector('.weatherImage')
